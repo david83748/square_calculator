@@ -10,6 +10,6 @@ function squareParalelograma(a, h) {
     return (a * h)
 }
 
-function squareRomba(a,) {
+function squareRomba(a, h) {
     return (a * h)
 }
