@@ -1,15 +1,22 @@
-function squareKvadrata(a) { 
-    return (a * a)  
+function squareKvadrata() { 
+    return `${(amount() * amount())}`  
 }
 
-function squarePriamougolnika(a , b) {
-    return (a * b)
+
+function amount() {
+
+    const amountKvadrat = document.getElementById('dlinaStoroniKvadrata').value
+    return amountKvadrat
 }
 
-function squareParalelograma(a, h) {
-    return (a * h)
-}
+// function squarePriamougolnika(a , b) {
+//     return (a * b)
+// }
 
-function squareRomba(a, h) {
-    return (a * h)
-}
+// function squareParalelograma(a, h) {
+//     return (a * h)
+// }
+
+// function squareRomba(a, h) {
+//     return (a * h)
+// }
