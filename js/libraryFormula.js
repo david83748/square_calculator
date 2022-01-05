@@ -1,15 +1,11 @@
-function squareKvadrata(a) { 
-    return (a * a)
-};
+// function squareKvadrata(a) { 
+//     return (a * a)
+// };
 
-function squarePriamougolnika(a , b) {
-    return (a * b)
-};
+const squareKvadrata = (a) => (a * a)
+ 
+const squarePriamougolnika = (a , b) =>  (a * b)
 
-function squareParalelograma(a, h) {
-    return (a * h)
-};
+const  squareParalelograma= (a, h) => (a * h)
 
-function squareRomba(a, h) {
-    return (a * h)
-};
+const  squareRomba = (a, h) =>  (a * h)
